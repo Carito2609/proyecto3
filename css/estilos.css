@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('../img/paul-volkmer-qVotvbsuM_c-unsplash.jpg');
+	background-size: cover;
+}
+.btn-primary1{
+	color: #ffffff;
+  font-family: 'Spicy Rice', cursive;
+    background: linear-gradient(to bottom, rgb(196,196,196,0.5), #7704E9 95%, rgb(119,4,233,0.1));
+    border:none;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    height: 60px;
+}
+.btn-primary1:disabled, .btn-primary.disabled {
+  color: #fff;
+  background: linear-gradient(0deg, #7704E9, #C4C4C4);
+  border:none;
+  font-family: 'Spicy Rice', cursive;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 150px;
+grid-row-gap: 150px;
+font-family: 'Spicy Rice', cursive;
+}
+.imga{
+  padding: 30px;
+  width: 130px; 
+  height: 130px;
+}
+
+
+
+
+
+
+
+

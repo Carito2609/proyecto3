@@ -1,0 +1,75 @@
+@font-face{
+  font-family:"Comic Boys";
+  src: url("../fonts/Comic Boys.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('../img/fondo2.jpg');
+  background-size: cover;
+}
+
+#primary2{
+  color: #F3EAEA;
+  background: linear-gradient(to bottom, rgb(196,196,196,0.5), #7704E9 95%, rgb(119,4,233,0.1));
+  border:none;
+  display:inline-block;
+  text-align: justify-all;
+  margin-left:0.5px;
+  margin-top: 70px;
+  line-height: 1.5;
+  text-decoration: none;
+  vertical-align: middle;
+  border-radius: 0.25rem;
+  font-family: 'Spicy Rice', cursive;
+  font-size: 15px;
+  max-height: 80px;
+  min-height: 80px;
+  max-width: 200px;
+  padding: 25px;
+}
+#casita{
+  margin-top: 40px;
+ margin-left: 60px;
+  width: 80px;
+  height: 80px;
+  padding: 2px;
+}
+
+h1{
+  padding: 50px;
+  text-align: center;
+  color: #F3EAEA;
+}
+.titulo{
+  font-family:"Comic Boys";
+  letter-spacing: 8px;
+  font-size: 60px;
+
+}
+.caja{
+  background-color: rgb(228,100,100,0.1);
+  max-width: 40rem;
+  width: 100%;
+  min-height: 20rem;
+  max-height: 20rem;
+  height: 100%;
+  margin: 5px auto;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 3%;
+  border: 1px solid #7704E9;
+}
+p{
+  font-family:"Comic Boys";
+  letter-spacing: 8px;
+  font-size: 27px;
+}
